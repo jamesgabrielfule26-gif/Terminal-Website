@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>James Fule Pascua | Terminal Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Font Awesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Google Fonts for Monospace -->
+    <link href="https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400&display=swap"
+        rel="stylesheet">
+</head>
+
+<body class="crt">
+    <div class="terminal-container">
+        <header class="terminal-header">
+            <span>TERMINAL SESSION: JG-PORTFOLIO-v1.0</span>
+            <span><i class="fas fa-battery-full"></i> 100% | <span id="clock">00:00:00</span></span>
+        </header>
+
+        <nav class="terminal-nav">
+            <span class="prompt">guest@portfolio:~$</span>
+            <a href="index.html" class="active">[ HOME ]</a>
+            <a href="about.html">[ ABOUT ]</a>
+            <a href="projects.html">[ PROJECTS ]</a>
+            <a href="contact.html">[ CONTACT ]</a>
+        </nav>
+
+        <main class="terminal-body" id="main-content">
+            <div class="ascii-art">
+                _ _ _ _
+                | | | | | | |
+                | |_| | ___| | | ___
+                | _ |/ _ \ | |/ _ \
+                | | | | __/ | | (_) |
+                \_| |_/\___|_|_|\___/
+            </div>
+
+            <div class="command-line">
+                <span class="prompt">guest@portfolio:~$</span>
+                <span class="typing-text" data-text="whoami"></span><span class="cursor">&nbsp;</span>
+            </div>
+
+            <div id="output-area" style="opacity: 0; transition: opacity 1s;">
+                <div class="intro-section">
+                    <h1>>> Hello, I'm James Fule Pascua</h1>
+                    <p class="role">>> CS Undergraduate | Technical Support | Logistics</p>
+                    <br>
+                    <p>Enthusiastic Computer Science undergraduate with strong technical support skills. I specialize in
+                        troubleshooting, networking protocols, and delivering excellent customer service.</p>
+                    <br>
+                    <div class="grid-container">
+                        <div class="card">
+                            <h3><i class="fas fa-terminal"></i> Status</h3>
+                            <p>Current: Freelance Wedding Coordinator</p>
+                            <p>Education: Westbridge Institute (2025)</p>
+                            <p>Location: Cabuyao, Calabarzon</p>
+                        </div>
+                        <div class="card">
+                            <h3><i class="fas fa-code"></i> Skills</h3>
+                            <p>Support: Remote Tools, POS Systems</p>
+                            <p>Tech: Java, Python, SQL</p>
+                            <p>Soft Skills: Leadership, Teamwork</p>
+                        </div>
+                    </div>
+
+                    <br>
+                    <p>>> Type 'help' or click menu items to navigate.</p>
+                    <br>
+                    <a href="projects.html" class="btn">View Projects</a>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

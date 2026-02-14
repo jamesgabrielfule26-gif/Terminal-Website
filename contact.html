@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>James Fule Pascua | Contact</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400&display=swap"
+        rel="stylesheet">
+</head>
+
+<body class="crt">
+    <div class="terminal-container">
+        <header class="terminal-header">
+            <span>TERMINAL SESSION: JG-PORTFOLIO-v1.0</span>
+            <span><i class="fas fa-battery-full"></i> 100% | <span id="clock">00:00:00</span></span>
+        </header>
+
+        <nav class="terminal-nav">
+            <span class="prompt">guest@portfolio:~$</span>
+            <a href="index.html">[ HOME ]</a>
+            <a href="about.html">[ ABOUT ]</a>
+            <a href="projects.html">[ PROJECTS ]</a>
+            <a href="contact.html" class="active">[ CONTACT ]</a>
+        </nav>
+
+        <main class="terminal-body">
+            <div class="command-line">
+                <span class="prompt">guest@portfolio:~$</span>
+                <span class="typing-text" data-text="./send_message.sh"></span><span class="cursor">&nbsp;</span>
+            </div>
+
+            <div id="output-area" style="opacity: 0; transition: opacity 1s;">
+                <h2>>> Initiate Communication Protocol</h2>
+                <div class="grid-container">
+                    <div class="card">
+                        <h3><i class="fas fa-envelope"></i> Direct Channels</h3>
+                        <p>> Location: Cabuyao, Calabarzon</p>
+                        <p>> Email: jamesgabrielfule26@gmail.com</p>
+                        <p>> Phone: 0927 493 4746</p>
+                        <p>> LinkedIn: linkedin.com/in/james-gabriel-pascua</p>
+                    </div>
+
+                    <div class="card">
+                        <h3><i class="fas fa-paper-plane"></i> Send Encrypted Message</h3>
+                        <form action="#" method="POST">
+                            <label for="name">> Enter Name:</label>
+                            <input type="text" id="name" name="name" placeholder="_" required>
+
+                            <label for="email">> Enter Email:</label>
+                            <input type="email" id="email" name="email" placeholder="_" required>
+
+                            <label for="message">> Enter Message:</label>
+                            <textarea id="message" name="message" rows="4" placeholder="_" required></textarea>
+
+                            <button type="submit" class="btn">[ TRANSMIT DATA ]</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
